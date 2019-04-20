@@ -13,7 +13,6 @@ import 'react-dates/lib/css/_datepicker.css';
 import * as moment from 'moment';
 
 const store = configureStore(); //=> return value from `configureStore'
-
 // store.subscribe(() => {
 //   const state = store.getState();
 //   const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
